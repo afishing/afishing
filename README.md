@@ -13,9 +13,7 @@
 
 <!-- 头像 -->
 <div align="center">
-<img width="120" src="https://camo.githubusercontent.com/0f2ae0e9dbf22e0c9c8e1e39b9e66e7b35a7e7a2e0b0d4d3c1b3f7b5e6e0e2c3/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6f6e65766361742f6f6e65766361742f6d61696e2f7075626c69632f636174312e676966" />
-<img  src="https://avatars.githubusercontent.com/u/0?v=4" align="center" height="200" width="200" style="border-radius: 50%;" />
-<img width="120" src="https://camo.githubusercontent.com/0f2ae0e9dbf22e0c9c8e1e39b9e66e7b35a7e7a2e0b0d4d3c1b3f7b5e6e0e2c3/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6f6e65766361742f6f6e65766361742f6d61696e2f7075626c69632f636174312e676966" />
+<img src="https://github.com/afishing.png" align="center" height="200" width="200" style="border-radius: 50%;" alt="afishing avatar" />
 </div>
 
 <!-- 个人介绍 -->
@@ -30,13 +28,9 @@
 <div align="center">❓ 如有任何疑问和想法，欢迎在博客或者 Git 留言交流 ❓</div>  
 <br/>  
 
-<!-- 贪吃蛇动图（由 .github/workflows/snake.yml 生成到 output 分支） -->
+<!-- 贪吃蛇动图（使用 gif 版本，确保动画播放） -->
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/afishing/afishing/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/afishing/afishing/output/github-contribution-grid-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/afishing/afishing/output/github-contribution-grid-snake.svg" />
-  </picture>
+  <img alt="github-snake" src="https://raw.githubusercontent.com/afishing/afishing/output/github-contribution-grid-snake.gif" />
 </div>
 <br/>  
 
@@ -59,11 +53,6 @@
 <img src=https://img.shields.io/badge/-QQ%20Mail-12B7F5?style=flat-square&logo=qq&logoColor=white alt=email height="40" style="margin-right: 10px;" />
 </a>
 </div>  
-
-<!-- 个人打卡记录 -->
-## Github Streak  
-<div align="center"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=afishing" /> </div>
-<div>&nbsp;</div>
 
 <!-- star 语言占比等统计 -->
 ## Github Stats  
