@@ -45,7 +45,7 @@
 <img src=https://img.shields.io/badge/-Gitee-C71D23?style=flat-square&logo=gitee alt=gitee height="40" style="margin-right: 10px;" />
 </a>
  &nbsp;&nbsp;&nbsp;
-<a href="https://blog.csdn.net/aaaafishing" target="_blank">
+<a href="https://blog.csdn.net/m0_68844410?type=blog" target="_blank">
 <img src=https://img.shields.io/badge/-CSDN-EF4223?style=flat-square&logo=csdn alt=csdn height="40" style="margin-right: 10px;" />
 </a>
  &nbsp;&nbsp;&nbsp;
@@ -53,14 +53,6 @@
 <img src=https://img.shields.io/badge/-QQ%20Mail-12B7F5?style=flat-square&logo=qq&logoColor=white alt=email height="40" style="margin-right: 10px;" />
 </a>
 </div>  
-
-<!-- star 语言占比等统计 -->
-## Github Stats  
-<div align="center">
-  <img height="137px" src="https://github-readme-stats.vercel.app/api?username=afishing&hide_title=true&hide_border=true&show_icons=true&line_height=21" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=afishing&hide_title=true&hide_border=true&layout=compact&langs_count=6" />
-</div>
-<div>&nbsp;</div>
 
 <!-- 奖杯墙 -->
 ## Github Score  
