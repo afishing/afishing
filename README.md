@@ -30,12 +30,12 @@
 <div align="center">❓ 如有任何疑问和想法，欢迎在博客或者 Git 留言交流 ❓</div>  
 <br/>  
 
-<!-- 贪吃蛇动图（由 .github/workflows/snake.yml 自动生成到 assets/） -->
+<!-- 贪吃蛇动图（由 .github/workflows/snake.yml 生成到 output 分支） -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/github-contribution-grid-snake.svg" />
-    <img alt="github-snake" src="./assets/github-contribution-grid-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/afishing/afishing/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/afishing/afishing/output/github-contribution-grid-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/afishing/afishing/output/github-contribution-grid-snake.svg" />
   </picture>
 </div>
 <br/>  

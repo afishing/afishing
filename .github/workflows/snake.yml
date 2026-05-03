@@ -2,8 +2,8 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    # 每 12 小时自动更新一次
-    - cron: "0 */12 * * *"
+    # 每 24 小时自动更新一次
+    - cron: "0 */24 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -17,19 +17,21 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
-
+      # 生成贪吃蛇 SVG 到 dist/ 目录
       - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk@v3
         id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            assets/github-contribution-grid-snake.svg
-            assets/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Commit & Push changes
-        uses: stefanzweifel/git-auto-commit-action@v5
+      # 将 dist 目录推送到 output 分支（raw 链接即可访问）
+      - name: Push svg to output branch
+        uses: crazy-max/ghaction-github-pages@v4
         with:
-          commit_message: "chore: update snake animation [skip ci]"
-          file_pattern: "assets/*"
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
