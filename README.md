@@ -51,12 +51,12 @@
 <img src=https://img.shields.io/badge/-Gitee-C71D23?style=flat-square&logo=gitee alt=gitee height="40" style="margin-right: 10px;" />
 </a>
  &nbsp;&nbsp;&nbsp;
-<a href="https://blog.csdn.net/afishing" target="_blank">
+<a href="https://blog.csdn.net/aaaafishing" target="_blank">
 <img src=https://img.shields.io/badge/-CSDN-EF4223?style=flat-square&logo=csdn alt=csdn height="40" style="margin-right: 10px;" />
 </a>
  &nbsp;&nbsp;&nbsp;
-<a href="mailto:afishing@example.com" target="_blank">
-<img src=https://img.shields.io/badge/-Email-EA4335?style=flat-square&logo=gmail&logoColor=white alt=email height="40" style="margin-right: 10px;" />
+<a href="mailto:2796233097@qq.com" target="_blank">
+<img src=https://img.shields.io/badge/-QQ%20Mail-12B7F5?style=flat-square&logo=qq&logoColor=white alt=email height="40" style="margin-right: 10px;" />
 </a>
 </div>  
 
