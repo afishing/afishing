@@ -1,0 +1,6 @@
+# 此目录用于存放 GitHub Actions 自动生成的动态 SVG 资源
+# - github-contribution-grid-snake.svg（贪吃蛇贡献图）
+# - github-contribution-grid-snake-dark.svg（深色版贪吃蛇）
+# - ocean.gif（海洋版贪吃蛇）
+#
+# 由 .github/workflows/snake.yml 自动生成并提交

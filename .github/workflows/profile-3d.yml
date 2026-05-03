@@ -1,0 +1,32 @@
+name: Generate 3D Profile Contribution
+
+on:
+  schedule:
+    # 每天凌晨 UTC 0 点执行（北京时间 8 点）
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    name: generate-3d-contrib
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: generate-3d-svg
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit & Push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update 3d contribution [skip ci]"
+          file_pattern: "profile-3d-contrib/*.svg"
